@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div id="titulo" class="text-center">
+        <h1>Calculadora simple</h1>
+    </div>
+    <hr>
+
+    <div class="text-center" id="calculadora">
+
+        <label for=""> Numero1: </label>
+        <input type="text" id="a">
+
+        <label for="">Numero2: </label>
+        <input type="text" id="b">
+
+        
+        <div id="resultado">
+            resultado
+        </div>
+        
+        <hr>
+        <div>
+            <button class="btn" onclick="sumar()" >Sumar </button>
+            <button class="btn" onclick="restar()" >Restar</button>
+            <button class="btn" onclick="multiplicar()" >Multiplicar</button>
+            <button class="btn" onclick="dividir()" >Dividir</button>
+            <button class="btn" onclick="elevar()" >Elevar al cuadrado</button>
+            <button class="btn" onclick="raiz()" >Raíz cuadrada</button>
+            <button class="btn" onclick="elevarNumero()">Elevar a potencia</button>
+        </div>
+        <hr>
+    </div>
+
+
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
